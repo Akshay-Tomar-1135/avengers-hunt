@@ -53,7 +53,7 @@ const Lost = () => {
         </p>
       </div>
       <div className="btn" style={{ width: "500px" }}>
-        <button onClick={navigateToLand}> &#8592; Go Back</button>
+        <button onClick={navigateToLand}> &#8592; Go Home</button>
       </div>
     </div>
   );

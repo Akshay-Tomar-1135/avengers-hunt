@@ -73,7 +73,7 @@ const Home = (props) => {
           <li onClick={navigateToGame}>New Game</li>
           <li onClick={navigateToContGame}>Continue Game</li>
           <li onClick={navigateToLead}>Leader Board</li>
-          <li onClick={navigateToLand}>Quit</li>
+          <li onClick={navigateToLand}>Logout</li>
         </ul>
       </div>
     </>

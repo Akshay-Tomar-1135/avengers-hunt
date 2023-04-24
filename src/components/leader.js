@@ -21,8 +21,8 @@ const Leader = () => {
     getUsers();
   }, []);
 
-  const navigateToLand = () => {
-    nav("/");
+  const navigateBack = () => {
+    nav(-1);
   };
 
   return (
@@ -49,7 +49,7 @@ const Leader = () => {
         </p>
       </div>
       <div className="btn">
-        <button onClick={navigateToLand}> &#8592; Go Back</button>
+        <button onClick={navigateBack}> &#8592; Go Back</button>
       </div>
     </div>
   );
