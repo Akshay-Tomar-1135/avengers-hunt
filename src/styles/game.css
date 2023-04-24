@@ -1,0 +1,112 @@
+    .gamebody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 30%;
+        background-color: #09010128;
+        margin-left: 30%;
+    }
+    
+    .he {
+        /* background: url("bg1.jpg"); */
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        border: 5px solid rgb(0, 8, 0);
+        /* opacity: .7; */
+        height: 110px;
+        widows: 100px;
+        position:fixed;
+        top: 5%;
+        left: 5%;
+        border-radius: 50%;
+        padding: 10px;
+        color: rgb(232, 19, 19);
+        display: flex;
+        align-items: center
+    }
+    
+    .heading1 {
+        height: 100px;
+        width: 500px;
+        position: relative;
+        top: 010px;
+        /* background-image: url("a3.png"); */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        /* flex-direction: row; */
+    }
+    
+    .heading1 h1 {
+        text-align: left;
+        margin-top: 10px;
+        font-size: 35px;
+        color: rgb(50, 34, 19);
+    }
+    
+    .gamecontent {
+        /* height: 450px;
+        width: 700px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-align: center;
+        flex-direction: column;
+        color: white;
+        font-weight:bold;
+        filter:contrast(10px); */
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-image: url("roll1.png");
+        align-items: center;
+        padding-left: 10px;
+        /* display: flex; */
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+        height: auto;
+        text-align: center;
+        font-size: 35px;
+        background-color: auto;
+        color: black;
+        background-position-x: 60px;
+        background-position-y: -20px;
+        border-radius: 20px;
+        font-weight: bolder;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* flex-direction: column; */
+    }
+    
+    .gamecontent p {
+        line-height: 60px;
+        height: auto;
+        width: 450px;
+        display: flex;
+        /* margin-left: 10%; */
+        font-size: 20px;
+        font-style: italic;
+        flex-direction: column  ;
+    }
+    
+    .gamecontent input {
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        line-height: 40px;
+        background-color: #8f8c8c;
+        font-size: 30px;
+        left:50%;
+        color: white;
+        margin-left: 10%;
+    }
+    
+    .left-button {
+        position: absolute;
+        left: 80px;
+    }
+    
+    .right-button {
+        position: absolute;
+        left: 50%;
+    }
